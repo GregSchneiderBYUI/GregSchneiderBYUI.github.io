@@ -1,9 +1,9 @@
 var section = document.querySelector("section");
 
 var pics = [
-  "https://howebekah.github.io/assignments/lesson-9/images/preston.jpg",
-  "https://howebekah.github.io/assignments/lesson-9/images/sodasprings.jpg",
-  "https://howebekah.github.io/assignments/lesson-9/images/fishhaven.jpg"
+  "https://gregschneiderbyui.github.io/assignments/lesson-9/images/preston.jpg",
+  "https://gregschneiderbyui.github.io/assignments/lesson-9/images/sodasprings.jpg",
+  "https://gregschneiderbyui.github.io/assignments/lesson-9/images/fishhaven.jpg"
 ];
 
 var requestURL =
