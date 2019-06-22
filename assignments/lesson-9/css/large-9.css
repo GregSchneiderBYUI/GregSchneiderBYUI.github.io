@@ -515,18 +515,16 @@ input[type=range] {
 }
 
 #towninfo p {
-    color: purple;
+    color: black;
 }
 
 #towninfo article {
     display: block;
-    box-shadow: .35rem .35rem .5rem green;
 }
 
 #towninfo h3 {
     margin-top: .5rem;
     font-size: 1.5rem;
-    border-bottom: .25rem solid blue;
     display: inline-block;
     padding-bottom: .2rem;
     margin-bottom: .5rem;
