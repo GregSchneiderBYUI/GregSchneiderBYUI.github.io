@@ -421,12 +421,9 @@ input[type=range] {
 #towninfo article {
   display: block;
   margin-top: 1rem;
-  box-shadow: .3rem .3rem .5rem blue;
-
 }
 
 #towninfo p {
-  background-color: pink;
   color: white;
   padding: 0;
 }
