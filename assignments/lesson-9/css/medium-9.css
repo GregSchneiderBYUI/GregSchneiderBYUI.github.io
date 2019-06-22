@@ -145,14 +145,6 @@ main {
     justify-content: center;
 }
 
-
-section p {
-    background-color: #75485e;
-    color: #f4fbeb;
-    padding: .25rem;
-    margin-top: 0;
-}
-
 #picwithcap1 img,
 #picwithcap2 img,
 #picwithcap3 img,
