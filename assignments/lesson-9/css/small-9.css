@@ -155,13 +155,6 @@ section {
 
 }
 
-section p {
-  background-color: #75485e;
-  color: #f4fbeb;
-  padding: .25rem;
-  margin-top: 0;
-}
-
 #picwithcap1 img,
 #picwithcap2 img,
 #picwithcap3 img,
@@ -424,14 +417,13 @@ input[type=range] {
 }
 
 #towninfo p {
-  color: white;
+  color: black;
   padding: 0;
 }
 
 #towninfo h3 {
   margin-top: .5rem;
   font-size: 1.5rem;
-  border-bottom: .25rem solid purple;
   display: inline-block;
   padding-bottom: .2rem;
   margin-bottom: 1rem;
@@ -440,7 +432,6 @@ input[type=range] {
 #towninfo article img {
   height: 8rem;
   width: 20rem;
-
 }
 
 #home {
