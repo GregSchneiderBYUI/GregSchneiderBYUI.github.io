@@ -1,5 +1,5 @@
 var request = new XMLHttpRequest();
-var apiURLstring = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=bf627dd42edb954b2c151102940b1674';
+var apiURLstring = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=9c45d1b3982e5d3d0f88b42909741234';
 request.open('GET', apiURLstring, true);
 request.responseType = 'text';
 request.send();
