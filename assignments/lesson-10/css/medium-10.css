@@ -187,6 +187,7 @@ h3 {
     top: 2rem;
     display: block;
     position: absolute;
+    border-radius: 2rem;
 }
 
 #sumwords {
