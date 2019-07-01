@@ -264,6 +264,10 @@ article {
   padding-bottom: 2rem;
 }
 
+#events {
+  margin-top: 1rem;
+}
+
 body {
   font-family: "Georgia", serif;
   background-color: #619176;
