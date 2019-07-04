@@ -230,6 +230,7 @@ h3 {
 
 article {
 	background-color: #cbd8d0;
+	border: 0.2rem solid #1a5232;
 	padding: 1rem;
 	display: flex;
 	align-items: center;
