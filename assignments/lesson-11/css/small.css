@@ -400,12 +400,6 @@ input[type=range] {
 	margin-top: 1rem;
 	}
 
-#towninfo p {
-	background-color: #f4fbeb;
-	color: black;
-	padding: 0;
-	}
-
 #towninfo h3 {
 	margin-top: .5rem;
 	font-size: 1.5rem;
