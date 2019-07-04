@@ -409,7 +409,6 @@ input[type=range] {
 #towninfo h3 {
 	margin-top: .5rem;
 	font-size: 1.5rem;
-	border-bottom: .25rem dashed #cb904d;
 	display: inline-block;
 	padding-bottom: .2rem;
 	margin-bottom: 1rem;
