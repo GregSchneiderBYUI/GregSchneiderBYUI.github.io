@@ -510,12 +510,6 @@ input[type=range] {
 	margin-top: 1rem;	
 }
 
-#towninfo p {
-	color: black;
-	padding: 0;
-	
-}
-
 #towninfo h3 {
 	margin-top: .5rem;
 	font-size: 1.5rem;
