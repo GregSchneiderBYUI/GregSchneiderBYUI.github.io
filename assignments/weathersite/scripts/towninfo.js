@@ -1,13 +1,13 @@
 var section = document.querySelector("section");
 
 var pics = [
-  "https://gregschneiderbyui.github.io/assignments/lesson-11/images/preston.jpg",
-  "https://gregschneiderbyui.github.io/assignments/lesson-11/images/sodasprings.jpg",
-  "https://gregschneiderbyui.github.io/assignments/lesson-11/images/fishhaven.jpg"
+  "https://gregschneiderbyui.github.io/assignments/weathersite/images/preston.jpg",
+  "https://gregschneiderbyui.github.io/assignments/weathersite/images/sodasprings.jpg",
+  "https://gregschneiderbyui.github.io/assignments/weathersite/images/fishhaven.jpg"
 ];
 
 var requestURL =
-  "https://gregschneiderbyui.github.io/assignments/lesson-11/json/towndata.json";
+  "https://gregschneiderbyui.github.io/assignments/weathersite/json/towndata.json";
 var request = new XMLHttpRequest();
 request.open("GET", requestURL);
 request.responseType = "text";
