@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Home page for Temple Inn & Suites">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" media="screen and (max-width: 550px)" />
+    <link rel="stylesheet" href="css/medium.css" media="screen and (min-width: 551px) and (max-width: 800px)" />
+    <link rel="stylesheet" href="css/large.css" media="screen and (min-width: 801px)" />
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+    <title>Home Page | Temple Inn & Suites</title>
+    <script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script>
+        $(function () {
+            $("a").each(function () {
+                if ($(this).prop("href") == window.location.href) {
+                    $(this).addClass("current");
+                }
+            });
+        })
+    </script>
+</head>
+
+<body>
+    <header>
+        <div id="navandtop">
+            <div class="top">
+                <div id="logo">
+                    <a href="index.html"><img src="images/templeinnlogo.png" alt="Temple Inn & Suites logo" /></a>
+                </div>
+                <div id="title">
+                    <h1 id="webname">Temple Inn & Suites</h1>
+                    <h3><em>"A nice place to stay"</em></h3>
+                </div>
+            </div>
+            <nav id="nav">
+                <button id="menubutton" onclick="iconFunction()">Menu &#9776;</button>
+                <div class="table">
+                    <ul class="hide" id="navul">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="temple.html">Temples</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2>Home</h2>
+        <a href="reservations.html">
+            <div id="calltoaction">Make a Reservation</div>
+        </a>
+        <article id="hometemple">
+            <img id="homenptemple" src="images/newporttemple.jpg"
+                alt="Newport California temple with landscape" />
+            <div class="articlewords">
+
+                <h3 class="templetitle">Newport Beach California</h3>
+
+                <ul>
+                    <li><b>Announced:</b> April 21, 2001</li>
+                    <li><b>Groundbreaking:</b> August 15, 2003</li>
+                    <li><b>Dedication:</b> August 28, 2005</li>
+                    <li><b>Address:</b> 2300 Bonita Canyon Dr, Newport Beach, CA, 92660</li>
+                </ul>
+                <div class="weathersum" id="homeweather">
+                    <h4 class="sumtitle">Newport Weather Summary</h4>
+                    <p><b>Currently: </b>
+                        <span id="currently"></span></p>
+                    <p><b>High: </b>
+                        <span id="hightemp"></span></p>
+                    <p><b>Humidity: </b>
+                        <span id="humidity"></span></p>
+                    <p><b>Wind Speed: </b>
+                        <span id="windspeed"></span></p>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <div id="contactbox">
+            <p><b>Temple Inn & Suites</b><br>(555) 555-5555<br>4800 Montgomery Ln #300<br> Bethesda, MD 20814
+        </div>
+        <div id="copywrite">
+            <p>&copy; 2019 | <a href="index.html">Temple Inn & Suites</a> | Greg Schneider | <a href="contact.html">Contact
+                    Us</a> | <a href="resources.html">Resources</a> | Weather data provided by <a
+                    href="https://openweathermap.org">Openweathermap.org</a></p>
+        </div>
+    </footer>
+    <script src="js/npweather.js"></script>
+    <script src="js/hamburger.js"></script>
+</body>
+
+</html>

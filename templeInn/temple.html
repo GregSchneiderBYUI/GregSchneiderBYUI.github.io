@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="description" content="Temple information for select LDS temples" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/small.css" media="screen and (max-width: 550px)" />
+  <link rel="stylesheet" href="css/medium.css" media="screen and (min-width: 551px) and (max-width: 800px)" />
+  <link rel="stylesheet" href="css/large.css" media="screen and (min-width: 801px)" />
+    <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.8.3.min.js"></script>
+  <script>
+    $(function () {
+      $("a").each(function () {
+        if ($(this).prop("href") == window.location.href) {
+          $(this).addClass("current");
+        }
+      });
+    });
+  </script>
+  <title>Temples Page | Temple Inn & Suites</title>
+</head>
+
+<body>
+  <header>
+    <div id="navandtop">
+      <div class="top">
+        <div id="logo">
+          <a href="index.html"><img src="images/templeinnlogo.png" alt="Temple Inn & Suites logo" /></a>
+        </div>
+        <div id="title">
+          <h1 id="webname">Temple Inn & Suites</h1>
+          <h3><em>"A nice place to stay"</em></h3>
+        </div>
+      </div>
+      <nav id="nav">
+        <button id="menubutton" onclick="iconFunction()">Menu &#9776;</button>
+        <div class="table">
+          <ul class="hide" id="navul">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="temple.html">Temples</a></li>
+                        <li><a href="reservations.html">Reservations</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <h2>Temples</h2>
+    <a href="reservations.html">
+      <div id="calltoaction">Make a Reservation</div>
+    </a>
+    <article>
+      <img id="nptemple" class="temppics" src="images/newporttemple.jpg"
+        alt="Newport California temple with landscape" />
+      <div class="articlewords">
+        <div id="nptopart">
+          <h3 class="templetitle">Newport Beach California</h3>
+          <div class="weathersum">
+            <h4 class="sumtitle">Newport Weather Summary</h4>
+            <p><b>Currently: </b> <span id="npcurrently"></span></p>
+            <p><b>High: </b> <span id="nphightemp"></span></p>
+            <p><b>Humidity: </b> <span id="nphumidity"></span></p>
+            <p><b>Wind Speed: </b> <span id="npwindspeed"></span></p>
+          </div>
+        </div>
+        <div id="nptherest">
+          <ul>
+            <li>
+              <b>Address:</b> 2300 Bonita Canyon Dr, Newport Beach, CA, 92660
+            </li>
+            <li><b>Telephone:</b> (949) 644-1820</li>
+            <li><b>Services:</b> No clothing rental available, No cafeteria available, No patron housing available,
+              No distribution center nearby</li>
+          </ul>
+        </div>
+
+        <div id="npmoreArtWords">
+          <div class="history">
+            <ul>
+              <li><b>Announced:</b> April 21, 2001</li>
+              <li><b>Groundbreaking:</b> August 15, 2003</li>
+              <li><b>Dedication:</b> August 28, 2005</li>
+              <li>
+                <b>History:</b><br><br> The Newport Beach Planning Commission gave its approval for the Newport
+				Beach California Temple on October 3, 2002, despite protests from the numerous 
+				residents in attendance. The Church worked closely with residents in a spirit of 
+				compromise, making changes in response to their concerns that included turning off 
+				flood lighting by 11:00 p.m., changing the color of the building from off-white to an 
+				earth-tone shade of seashell, and reducing the height of the spire from 124 feet to 100 feet.
+                <br><br>On January 13, 2005, a statue of the angel Moroni crowned the temple. During placement,
+				a remarkable solar halo was visible, which surrounded the sun. Once Moroni was in place,
+				the phenomenon dissipated.
+			  </li>
+            </ul>
+          </div>
+        </div>
+        <div id="npsched">
+          <h4>Endowment Schedule</h4>
+          <p><b>Sunday: </b>Closed</p>
+          <p><b>Monday: </b>Closed</p>
+          <p><b>Tuesday: </b>7:00 AM, 8:30 AM, 10:00 AM, 12:00 PM, 1:30 PM, 3:00 PM, 5:00 PM, 6:30 PM, 8:00 PM</p>
+          <p><b>Wednesday: </b>7:00 AM, 8:30 AM, 10:00 AM, 12:00 PM, 1:30 PM, 3:00 PM, 5:00 PM, 6:30 PM, 8:00 PM</p>
+          <p><b>Thursday: </b>7:00 AM, 8:30 AM, 10:00 AM, 12:00 PM, 1:30 PM, 3:00 PM, 5:00 PM, 6:30 PM, 8:00 PM</p>
+          <p><b>Friday: </b>7:00 AM, 8:30 AM, 10:00 AM, 12:00 PM, 1:30 PM, 3:00 PM, 5:00 PM, 6:30 PM, 8:00 PM</p>
+          <p><b>Saturday: </b>7:00 AM, 8:30 AM, 10:00 AM, 12:00 PM, 1:30 PM, 3:00 PM, 5:00 PM, 6:30 PM, 8:00 PM</p>
+          <div id="npclosewhole">
+            <ul id="npclosuresched">
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article>
+      <img id="crwtemple" class="temppics" src="images/columbiatemple.jpg"
+        alt="Columbia River Washington temple with landscape" />
+      <div id="crwarticlewords">
+        <div id="crwtopart">
+          <h3 class="templetitle">Columbia River Washington</h3>
+          <div class="weathersum">
+            <h4 class="sumtitle">Kennewick Weather Summary</h4>
+            <p><b>Currently: </b> <span id="crwcurrently"></span></p>
+            <p><b>High: </b> <span id="crwhightemp"></span></p>
+            <p><b>Humidity: </b> <span id="crwhumidity"></span></p>
+            <p><b>Wind Speed: </b> <span id="crwwindspeed"></span></p>
+          </div>
+        </div>
+        <div id="crwtherest">
+          <ul>
+            <li>
+              <b>Address:</b> 969 Gage Boulevard, Richland, WA, 99352</li>
+            <li><b>Telephone:</b> (509) 628-0990</li>
+            <li><b>Services:</b> No clothing rental available, No cafeteria available, No Patron housing available,
+              Distribution center nearby</li>
+          </ul>
+        </div>
+      </div>
+      <div id="crwmoreArtWords">
+        <div class="history">
+          <ul>
+            <li><b>Announced:</b> April 2, 2000</li>
+            <li><b>Groundbreaking:</b> October 28, 2000</li>
+            <li><b>Dedication:</b> November 18, 2001</li>
+            <li>
+              <b>History:</b><br><br> Elder Stephen A. West, who presided at the groundbreaking ceremony, stated at that
+			  occasion, "Our homes are where we become prepared to go to the temple. Carved over the temple door 
+			  is the phrase, 'The House of the Lord.' Our houses should be homes where the Lord could be comfortable 
+			  to visit. In the dedicatory prayer for the Kirtland Temple it was said?'establish a house, even a house
+			  of prayer, a house of fasting, a house of faith, a house of learning, a house of glory, a house of 
+			  order, a house of God.' May that be said of our homes as well."
+
+			<br><br>The temple's construction is of exceptional significance for the many second and third generation 
+			Latter-day Saints who moved from Utah to Richland during the build-up of the Hanford site in World War 
+			II. These faithful saints who have remained in Washington for many years will now be blessed with the 
+			proximity of temple as enjoyed by most Utahns.
+
+			<br><br>Elder Lowell Barber, Area Authority Seventy, quoted the First Presidency from a letter written in 1893,
+			counseling Church members how to prepare for temple worship: "Before entering into the temple to present 
+			ourselves before the Lord in solemn assembly, we shall divest ourselves of every harsh and unkind feeling
+			against each other,?that we shall confess our sins one to another, and ask for forgiveness one of another;
+			that we shall plead with the Lord for the spirit of repentance, and having obtained it, follow its 
+			promptings?" 
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="crwsched">
+        <h4>Endowment Schedule</h4>
+        <p><b>Sunday: </b>Closed</p>
+        <p><b>Monday: </b>Closed</p>
+        <p><b>Tuesday: </b>8:00 AM, 8:30 AM, 10:00 AM, 12:00 PM, 12:30 PM, 2:00 PM, 4:00 PM, 4:30 PM, 6:30 PM, 7:00 PM</p>
+        <p><b>Wednesday: </b>8:00 AM, 8:30 AM, 10:00 AM, 12:00 PM, 12:30 PM, 2:00 PM, 4:00 PM, 4:30 PM, 6:30 PM, 7:00 PM</p>
+        <p><b>Thursday: </b>8:00 AM, 8:30 AM, 10:00 AM, 12:00 PM, 12:30 PM, 2:00 PM, 4:00 PM, 4:30 PM, 6:30 PM, 7:00 PM</p>
+        <p><b>Friday: </b>8:00 AM, 8:30 AM, 10:00 AM, 12:00 PM, 12:30 PM, 2:00 PM, 4:00 PM, 4:30 PM, 6:30 PM, 7:00 PM</p>
+        <p><b>Saturday: </b>7:00 AM, 8:00 AM, 8:30 AM, 10:00 AM, 12:00 PM, 12:30 PM, 2:00 PM, 4:00 PM, 4:30 PM, 6:30 PM, 7:00 PM</p>
+        <div id="crwclosewhole">
+          <ul id="crwclosuresched">
+
+          </ul>
+        </div>
+      </div>
+    </article>
+    <article>
+      <img id="rextemple" class="temppics" src="images/rexburgtemple.jpg" 
+	       alt="Rexburg Idaho temple with landscape" />
+      <div class="articlewords">
+        <div id="rextopart">
+          <h3 class="templetitle">Rexburg Idaho</h3>
+          <div class="weathersum">
+            <h4 class="sumtitle">Rexburg Weather Summary</h4>
+            <p><b>Currently: </b> <span id="rexcurrently"></span></p>
+            <p><b>High: </b> <span id="rexhightemp"></span></p>
+            <p><b>Humidity: </b> <span id="rexhumidity"></span></p>
+            <p><b>Wind Speed: </b> <span id="rexwindspeed"></span></p>
+          </div>
+        </div>
+        <div id="rextherest">
+          <ul>
+            <li>
+              <b>Address:</b> 750 S 2nd E, Rexburg, ID, 83440</li>
+            <li><b>Telephone:</b> (208) 656-0880</li>
+            <li><b>Services:</b> Clothing rental available, No Cafeteria available, No patron housing available,
+              Distribution center nearby</li>
+          </ul>
+        </div>
+      </div>
+      <div id="rexmoreArtWords">
+        <div class="history">
+          <ul>
+            <li><b>Announced:</b> December 12, 2003</li>
+            <li><b>Groundbreaking:</b> July 30, 2005</li>
+            <li><b>Dedication:</b> January 18, 1972</li>
+            <li><b>Rededication:</b> February 10, 2008</li>
+            <li>
+              <b>History:</b><br><br>On the evening of January 27, 2008, one week before the scheduled dedication 
+			  of the temple, news traveled across the globe of the passing of President Gordon B. Hinckley, who had 
+			  intended to dedicate the temple. To accommodate Pres. Hinckley's funeral, the dedication ceremony was 
+			  postponed one week. On the day of the originally scheduled dedication, President Thomas S. Monson was 
+			  ordained the 16th president of the Church and assumed the task of dedicating the temple the next week 
+			  as his "first official act" as president. Dense fog the morning of the dedication prevented his plane 
+			  from landing in Idaho Falls as scheduled, so the plane was rerouted to Pocatello, and the final 
+			  80 miles of the trip was resumed by car. President Henry B. Eyring of the First Presidency and Elder 
+			  David Bednar of the Twelve, both former presidents of Ricks College, planned to attend the dedication,
+			  but Pres. Eyring was prevented due to a broken ankle. The four dedicatory sessions were broadcast 
+			  throughout the region to the thousands of members wishing to attend.8 In his dedicatory prayer, Pres. 
+			  Monson declared, "May Thy faithful saints of this and future generations look to this temple as a 
+			  sanctuary and a place of service to Thee and to Thy children."
+            </li>
+          </ul>
+        </div>
+        <div id="rexsched">
+          <h4>Endowment Schedule</h4>
+          <p><b>Sunday: </b>Closed</p>
+          <p><b>Monday: </b>Closed</p>
+          <p><b>Tuesday: </b>6:00 AM, 7:30 AM, 8:15 AM, 9:00 AM, 9:45 AM, 10:30 AM, 11:15 AM, 12:00 PM,
+				12:45 PM, 1:30 PM, 2:15 PM, 3:00 PM, 3:45 PM, 4:30 PM, 5:15 PM, 6:00 PM, 6:45 PM, 7:30 PM</p>
+          <p><b>Wednesday: </b>6:00 AM, 7:30 AM, 8:15 AM, 9:00 AM, 9:45 AM, 10:30 AM, 11:15 AM, 12:00 PM,
+				12:45 PM, 1:30 PM, 2:15 PM, 3:00 PM, 3:45 PM, 4:30 PM, 5:15 PM, 6:00 PM, 6:45 PM, 7:30 PM</p>
+          <p><b>Thursday: </b>6:00 AM, 7:30 AM, 8:15 AM, 9:00 AM, 9:45 AM, 10:30 AM, 11:15 AM, 12:00 PM,
+				12:45 PM, 1:30 PM, 2:15 PM, 3:00 PM, 3:45 PM, 4:30 PM, 5:15 PM, 6:00 PM, 6:45 PM, 7:30 PM/p>
+          <p><b>Friday: </b>6:00 AM, 7:30 AM, 8:15 AM, 9:00 AM, 9:45 AM, 10:30 AM, 11:15 AM, 12:00 PM,
+				12:45 PM, 1:30 PM, 2:15 PM, 3:00 PM, 3:45 PM, 4:30 PM, 5:15 PM, 6:00 PM, 6:45 PM, 7:30 PM</p>
+          <p><b>Saturday: </b>6:00 AM, 7:30 AM, 8:15 AM, 9:00 AM, 9:45 AM, 10:30 AM, 11:15 AM, 12:00 PM,
+				12:45 PM, 1:30 PM, 2:15 PM, 3:00 PM, 3:45 PM, 4:30 PM, 5:15 PM, 6:00 PM, 6:45 PM, 7:30 PM</p>
+          <div id="rexclosewhole">
+            <ul id="rexclosuresched">
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article>
+      <img id="pcctemple" class="temppics" src="images/citycentertemple.jpg" 
+	       alt="Provo City Center temple with landscape " />
+
+      <div id="pccarticlewords">
+
+        <div id="pcctopart">
+          <h3 class="templetitle">Provo City Center Utah</h3>
+          <div class="weathersum">
+            <h4 class="sumtitle">Provo Weather Summary</h4>
+            <p><b>Currently: </b> <span id="pcccurrently"></span></p>
+            <p><b>High: </b> <span id="pcchightemp"></span></p>
+            <p><b>Humidity: </b> <span id="pcchumidity"></span></p>
+            <p><b>Wind Speed: </b> <span id="pccwindspeed"></span></p>
+          </div>
+        </div>
+        <div id="pcctherest">
+          <ul>
+            <li>
+              <b>Address:</b> 50 S University Ave Provo, UT, 84601</li>
+            <li><b>Telephone:</b> (801) 343-2700</li>
+            <li><b>Services:</b> Clothing rental available, No cafeteria available, No patron housing available,
+              Distribution center nearby</li>
+          </ul>
+        </div>
+      </div>
+      <div id="pccmoreArtWords">
+        <div class="history">
+          <ul>
+            <li><b>Announced:</b> October 1, 2011</li>
+            <li><b>Groundbreaking:</b> May 12, 2012</li>
+            <li><b>Dedication:</b> March 20, 2016</li>
+            <li>
+              <b>History:</b> <br><br>150th operating temple. After standing unharmed for 125 years, the Provo Tabernacle met
+              tragedy on December 17, 2010, when a four-alarm fire, reported at 2:43 a.m., engulfed the building—ripping
+              through wooden pews, organ pipes, a rented Fazioli piano, priceless pioneer craftsmanship, and original
+              pieces of art. For hours, a crew of approximately 25 firefighters subdued flames and doused the building
+              with water. Around 5:00 a.m., the roof began to collapse, giving way completely within the hour and
+              dragging
+              with it portions of the front parapet and wall. Crews were still drenching hot spots by mid-afternoon, but
+              felt encouraged by the still-standing exterior walls. Tearful crowds gathered throughout the day, looking
+              on
+              in reverent dismay as black smoke billowed from the iconic edifice. Perhaps the most remarkable discovery
+              made among the ashes the day after the fire was a giclee print of The Second Coming by Harry Anderson,
+              which
+              depicts Jesus Christ coming through the clouds with heralding angels on either side—a picture frequently
+              featured in LDS temples. The tabernacle painting, which sat inside the east front door, was completely
+              blackened by residual fire except for the untouched figure of Jesus Christ himself with hands
+              outstretched.
+              Those who saw the painting in person were awestruck. Officials directed the print to be removed
+              immediately
+              for conservation and stabilization. It was handled with the greatest care, wrapped in plastic, and loaded
+              into a waiting truck. The extraordinary occurrence was dubbed by some to be a "Christmas miracle."
+            </li>
+          </ul>
+        </div>
+        <div id="pccsched">
+          <h4>Endowment Schedule</h4>
+          <p><b>Sunday: </b>Closed</p>
+          <p><b>Monday: </b>Closed</p>
+          <p><b>Tuesday: </b>6:00 AM, 7:00 AM, 8:00 AM, 9:00 AM, 10:00 AM, 11:00 AM, 12:00 PM, 1:00 PM, 2:00 PM, 3:00
+            PM, 4:00 PM, 5:00 PM, 6:00 PM, 7:00 PM, 8:00 PM</p>
+          <p><b>Wednesday: </b>6:00 AM, 7:00 AM, 8:00 AM, 9:00 AM, 10:00 AM, 11:00 AM, 12:00 PM, 1:00 PM, 2:00 PM, 3:00
+            PM, 4:00 PM, 5:00 PM, 6:00 PM, 7:00 PM, 8:00 PM
+          </p>
+          <p><b>Thursday: </b>6:00 AM, 7:00 AM, 8:00 AM, 9:00 AM, 10:00 AM, 11:00 AM, 12:00 PM, 1:00 PM, 2:00 PM, 3:00
+            PM, 4:00 PM, 5:00 PM, 6:00 PM, 7:00 PM, 8:00 PM</p>
+          <p><b>Friday: </b>6:00 AM, 7:00 AM, 8:00 AM, 9:00 AM, 10:00 AM, 11:00 AM, 12:00 PM, 1:00 PM, 2:00 PM, 3:00 PM,
+            4:00 PM, 5:00 PM, 6:00 PM, 7:00 PM, 8:00 PM
+          </p>
+          <p><b>Saturday: </b>6:00 AM, 7:00 AM, 8:00 AM, 9:00 AM, 10:00 AM, 11:00 AM, 12:00 PM, 1:00 PM, 2:00 PM, 3:00
+            PM, 4:00 PM, 5:00 PM, 6:00 PM, 7:00 PM, 8:00 PM
+          </p>
+          <div id="pcclosewhole">
+            <ul id="pcclosuresched">
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+  <footer>
+    <div id="contactbox">
+      <p><b>Temple Inn & Suites</b><br>(555) 555-5555<br>4800 Montgomery Ln #300<br> Bethesda, MD 20814
+    </div>
+    <div id="copywrite">
+      <p>
+        &copy; 2019 | <a href="index.html">Temple Inn & Suites</a> | Greg Schneider | <a href="contact.html">Contact Us</a> |
+        <a href="resources.html">Resources</a>
+      </p>
+    </div>
+  </footer>
+  <script src="js/templeclosure.js"></script>
+  <script src="js/templeweather.js"></script>
+  <script src="js/hamburger.js"></script>
+</body>
+
+</html>
