@@ -243,7 +243,8 @@ h4 {
 #crwsched,
 #rexsched,
 #pccsched {
-    display: none;
+    margin-top: .1rem;
+    margin-bottom: 0;
 }
 
 #contactbox {
