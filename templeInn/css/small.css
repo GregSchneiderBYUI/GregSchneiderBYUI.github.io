@@ -451,7 +451,8 @@ h5 {
 #pic8 img {
     width: 100%;
     display: inline-block;
-    border-bottom: 0.35rem solid white;
+    border-bottom: 0.5rem solid #0a2839;
+    border-radius: .5rem;
     margin-bottom: 0.25rem;
 }
 
